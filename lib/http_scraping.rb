@@ -1,5 +1,4 @@
 # Scraping the front page of Raleigh Craigslist w/ Net::HTTP, HTTParty, & Nokogiri
-
 require 'pry'
 require 'net/http'
 require 'uri'
