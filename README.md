@@ -1,6 +1,6 @@
 # SCRAPPY
 
-Two simple Craigslist web scrapers Written with Ruby 2.5.5 on Rails 5.
+Two simple Craigslist web scrapers written with Ruby 2.5.5 on Rails 5.
 
 Running `lib/http_scraping` uses HTTParty to retrieve the site cookie, & a Net::HTTP request containing the site headers & cookie returns a gzip response that is read by Zlib & then parsed by Nokogiri. Ruby takes the parsed objects & arranges them into arrays.
 
